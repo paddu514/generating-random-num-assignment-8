@@ -1,0 +1,28 @@
+package main 
+  
+import ( 
+    "fmt"
+    "math/rand"
+) 
+  
+
+func main() { 
+  
+     
+    res_1 := rand.Perm(5) 
+    res_2 := rand.Perm(7) 
+    fmt.Println("Slice 1: ", res_1) 
+  
+   
+    fmt.Println("Length of Slice 1: ", len(res_1)) 
+  
+    fmt.Println("Capacity of Slice 1: ", cap(res_1)) 
+  
+    fmt.Println("Slice 2: ", res_2) 
+  
+   
+    fmt.Println("Length of Slice 2: ", len(res_2)) 
+  
+    
+    fmt.Println("Capacity of Slice 2: ", cap(res_2)) 
+  }
